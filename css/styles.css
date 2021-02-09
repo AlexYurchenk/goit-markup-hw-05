@@ -9,6 +9,7 @@
     --secondary-wwhite-color: #E5E5E5;
     --logo-color: #000000;
     --icon-color: #AFB1B8;
+    --header-border-color: #ECECEC;
 }
 html{
     box-sizing: border-box;
@@ -37,7 +38,7 @@ button{
 }
 /*header*/
 .header{
-    border: 1px solid #ECECEC;
+    border:var(--header-border-color) 1px solid;
 }
 .header__container{
     margin-right: auto;
